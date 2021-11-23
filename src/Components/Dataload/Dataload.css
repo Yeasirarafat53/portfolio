@@ -1,0 +1,9 @@
+.project{
+    margin-top: 50px;
+}
+.raw{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content:space-between;
+   
+}

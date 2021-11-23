@@ -1,0 +1,82 @@
+.main-part {
+  color: white;
+  margin-top: 100px;
+}
+
+
+.title {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.field input {
+  color: rgb(0, 0, 0);
+  height: 100%;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  background-color: rgb(180, 233, 233);
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.textarea textarea {
+  height: 100%;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  background-color: rgb(180, 233, 233);
+  margin-top: 10px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+.button-area input {
+  color: #fff;
+  display: block;
+  width: 160px !important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2 px solid crimson;
+  transition: all 0.3s ease;
+}
+
+.submit {
+  color: white;
+  height: 50px;
+  padding: 5px 36px;
+  border: 1px solid crimson;
+  border-radius: 6px;
+
+  background-color: crimson;
+  outline: none;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.submit:hover {
+  background-color: transparent;
+}
+
+.under {
+  height: 5px;
+  width: 10px;
+  color: white;
+}
