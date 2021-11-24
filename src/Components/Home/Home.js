@@ -4,17 +4,17 @@ import profile from "../../images/profile.png"
 // import Typewriter from "typewriter-effect";
 import Typical from "react-typical"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
-import { faFacebook, faFacebookF, faFacebookSquare, faGithub, faGithubSquare, faLinkedin, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import {  faFacebookSquare, faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faArrowAltCircleRight } from "@fortawesome/free-solid-svg-icons";
-// import { Button, Card, Container } from 'react-bootstrap';
+
+
 
 const Home = () => {
   return (
     
       <div  className="container home-main">
         
-          <div className="row">
+          <div className="row arif">
 
          
             <div className="home col-md-6">
@@ -28,9 +28,6 @@ const Home = () => {
                         wrapper="b"
                       />
                   </div>
-                
-                
-
 
                   <div className="text-3" >And I'm {''} 
                     <span>
@@ -53,11 +50,7 @@ const Home = () => {
                 
                  </div>
 
-                  <a className="resume" href="https://drive.google.com/u/0/uc?id=1Gb6aBoCyEdDA3UCJDQC7rnl01RK0yLpq&export=download"> Download Resume <FontAwesomeIcon icon={faArrowAltCircleRight} /></a>
-                  
-             
-
-                 
+                  <a className="resume"  href="https://drive.google.com/u/0/uc?id=1Gb6aBoCyEdDA3UCJDQC7rnl01RK0yLpq&export=download" target="_blank"> Download Resume <FontAwesomeIcon icon={faArrowAltCircleRight} /></a>
 
                 </div>
               </div> 
@@ -67,6 +60,8 @@ const Home = () => {
              <div className="profile col-md-6">
                <img src={profile} className="pic" alt="" />
              </div>
+
+            
 
 
           </div>

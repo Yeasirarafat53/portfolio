@@ -1,8 +1,8 @@
 .main-part {
   color: white;
   margin-top: 100px;
+  padding-bottom: 50px;
 }
-
 
 .title {
   color: white;
@@ -79,4 +79,40 @@
   height: 5px;
   width: 10px;
   color: white;
+}
+
+/* media queries for responsice*/
+
+/* mobile responsive */
+
+@media only screen and (max-width: 600px) {
+  .info p{
+    font-size:16px;
+  }
+
+  .field input {
+    width: 310px;
+    padding: 7px;
+  }
+
+  .textarea textarea {
+    width: 310px;
+    padding:7px;
+  }
+
+  .submit {
+    padding: 0px 8px;
+  }
+
+  .main-part{
+    padding-bottom: 20px;
+  }
+
+  .message-box{
+  
+   padding-top: 74px;
+   text-align: center;
+
+  }
+
 }

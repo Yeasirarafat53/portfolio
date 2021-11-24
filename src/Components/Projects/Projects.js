@@ -20,9 +20,9 @@ const Projects = ({info}) => {
                     </Card.Text>
                     </Card.Body>
                     <Card.Footer>
-                        <a href={info.website} target="_blank" className="button btn btn-primary">Website</a>
+                        <a href={info.website} target="_blank"  className="btn btn-primary">Website</a>
                                             
-                        <a href={info.github} target="_blank" className="button btn btn-primary">Github</a>
+                        <a href={info.github}  className="btn btn-primary">Github</a>
                     </Card.Footer>
                     </Card>
             </div>       

@@ -45,7 +45,7 @@ const Contact = () => {
       </div>
 
       <div className="row">
-        <div className="details col-md-6">
+        <div className="info col-md-6">
           <h3>Get in Touch</h3>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia

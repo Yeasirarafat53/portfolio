@@ -4,7 +4,8 @@ import React from "react";
 const useStyle = makeStyles({
   container: {
     margin: "1rem 0.5rem",
-    marginTop:'100px'
+    marginTop:'80px',
+    marginBottom:'200px',
   },
   skills: {
     marginBottom: '1.5rem',

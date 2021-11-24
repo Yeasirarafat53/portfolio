@@ -11,12 +11,12 @@ const About = () => {
     <div className="container main-about">
       <h2 className="titles">About me</h2>
 
-      <section className="row">
+      <section className="row main-part">
         <div className="col-md-5 picture">
           <img src={profile2} alt="" />
         </div>
 
-        <div className="col-md-7 text align-self-center">
+        <div className="details col-md-7 text align-self-center">
           <div className="name-title">
             I'm Yeasir Arafat and I'm a {""}{" "}
             <span style={{ color: "yellow" }}>
@@ -39,7 +39,7 @@ const About = () => {
             non.
           </p>
 
-          <a className="resume" href="https://drive.google.com/u/0/uc?id=1Gb6aBoCyEdDA3UCJDQC7rnl01RK0yLpq&export=download">Download Resume <FontAwesomeIcon icon={faArrowAltCircleRight} /></a>
+          <a className="resumes" href="https://drive.google.com/u/0/uc?id=1Gb6aBoCyEdDA3UCJDQC7rnl01RK0yLpq&export=download">Download Resume <FontAwesomeIcon icon={faArrowAltCircleRight} /></a>
         </div>
       </section>
     </div>

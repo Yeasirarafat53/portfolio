@@ -16,3 +16,25 @@
   padding: 8 px 26 px 8 px 26 px;
   background-color: rgb(255, 0, 0);
 }
+
+
+/* media queries for responsice*/
+
+/* mobile responsive */
+
+@media only screen and (max-width: 600px) {
+
+  .card {
+    width: 90%;
+    height: 50%;
+    margin-left: 18px;
+   
+  }
+.button{
+  justify-content:space-between;
+}
+
+
+
+}
+
